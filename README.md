@@ -11,7 +11,7 @@ A procedure está configurada para gerar os feriados de 1990 até 2099, caso des
         
         @Dt_Final datetime = '2099-01-01'
 
-Depois de executar a procedure será criada da tabela: TBL_FERIADOS. No formato:
+Depois de executar a procedure será criada a tabela: TBL_FERIADOS. No formato:
 
 <p align="center"><img src="https://github.com/manoelleal17/gerarferiados/blob/main/Exemplo.png" ></p>
 
