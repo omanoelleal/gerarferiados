@@ -71,7 +71,7 @@ AS BEGIN
              
              UNION
              
-        SELECT CAST(CAST(YEAR(DATEADD(DAY , -47, @pascoa)) AS nvarchar(4)) + '-' + CAST(MONTH(DATEADD(DAY , -47, @pascoa)) AS NVARCHAR(2)) + '-' + CAST(DAY(DATEADD(DAY , -47, @pascoa)) AS NVARCHAR(2))  AS DATE), YEAR(DATEADD(DAY , -47, @pascoa)), MONTH(DATEADD(DAY , -47, @pascoa)), DAY(DATEADD(DAY , -47, @pascoa)), 'Carnaval - Terça', 'BR'
+             SELECT CAST(CAST(YEAR(DATEADD(DAY , -47, @pascoa)) AS nvarchar(4)) + '-' + CAST(MONTH(DATEADD(DAY , -47, @pascoa)) AS NVARCHAR(2)) + '-' + CAST(DAY(DATEADD(DAY , -47, @pascoa)) AS NVARCHAR(2))  AS DATE), YEAR(DATEADD(DAY , -47, @pascoa)), MONTH(DATEADD(DAY , -47, @pascoa)), DAY(DATEADD(DAY , -47, @pascoa)), 'Carnaval - Terça', 'BR'
              
              UNION
              
