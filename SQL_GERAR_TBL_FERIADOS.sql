@@ -42,7 +42,7 @@ AS BEGIN
  
     DECLARE 
         @Dt_Inicial datetime = '1990-01-01',
-        @Dt_Final datetime = '2099-01-01'
+        @Dt_Final datetime = '2099-12-31'
 
  
     WHILE(@Dt_Inicial <= @Dt_Final)
