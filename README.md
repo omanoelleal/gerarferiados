@@ -9,7 +9,7 @@ A procedure está configurada para gerar os feriados de 1990 até 2099, caso des
 
         @Dt_Inicial datetime = '1990-01-01'
         
-        @Dt_Final datetime = '2099-01-01'
+        @Dt_Final datetime = '2099-12-31'
 
 Depois de executar a procedure será criada a tabela: TBL_FERIADOS. No formato:
 
