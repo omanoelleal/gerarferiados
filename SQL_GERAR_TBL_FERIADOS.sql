@@ -10,7 +10,7 @@ AS BEGIN
     BEGIN
         
         CREATE TABLE dbo.TBL_FERIADOS (
-                    DT_FERIADO DATE NOT NULL,
+            DT_FERIADO DATE NOT NULL,
             ANO INT NOT NULL,
             MES INT NOT NULL,
             DIA INT NOT NULL,
