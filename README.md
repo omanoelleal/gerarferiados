@@ -7,9 +7,11 @@ Primeiro passo é necessário criar a procedure com o código abaixo.
 
 A procedure está configurada para gerar os feriados de 1990 até 2099, caso deseje alterar o período é só alterar as variáveis:
 
-        @Dt_Inicial datetime = '1990-01-01'
-        
-        @Dt_Final datetime = '2099-12-31'
+````SQL
+@Dt_Inicial datetime = '1990-01-01'
+
+@Dt_Final datetime = '2099-12-31'
+````
 
 Depois de executar a procedure será criada a tabela: TBL_FERIADOS. No formato:
 
